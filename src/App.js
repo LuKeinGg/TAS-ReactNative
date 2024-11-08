@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Counter from './components/Counter';
+import TextDisplay from './components/TextDisplay';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <Counter />
+            <TextDisplay />
         </View>
     );
 };
