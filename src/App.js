@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import TextDisplay from './components/TextDisplay';
+import TodoList from './components/TodoList';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <TextDisplay />
+            <TodoList />
         </View>
     );
 };
