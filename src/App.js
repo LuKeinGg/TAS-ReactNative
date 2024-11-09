@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import ImageGallery from './components/ImageGallery';
+import List from './components/List';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <ImageGallery />
+            <List />
         </View>
     );
 };
