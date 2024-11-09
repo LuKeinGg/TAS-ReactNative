@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import List from './components/List';
+import MovieApp from './components/MovieApp';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <List />
+            <MovieApp />
         </View>
     );
 };
