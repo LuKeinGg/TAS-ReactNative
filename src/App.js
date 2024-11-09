@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import TodoList from './components/TodoList';
+import ImageChanger from './components/ImageChanger';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <TodoList />
+            <ImageChanger />
         </View>
     );
 };
