@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import ImageChanger from './components/ImageChanger';
+import ImageGallery from './components/ImageGallery';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <ImageChanger />
+            <ImageGallery />
         </View>
     );
 };
@@ -15,6 +15,8 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        paddingTop: 40,
+        backgroundColor: '#f5f5f5',
     },
 });
 
