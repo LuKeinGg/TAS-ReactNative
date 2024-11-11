@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import LocationInfo from './components/LocationInfo';
+import ImagePickerComponent from './components/ImagePickerComponent';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <LocationInfo />
+            <ImagePickerComponent />
         </View>
     );
 };
