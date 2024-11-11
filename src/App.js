@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import PlatformSpecificContent from './components/PlatformSpecificContent';
+import LocationInfo from './components/LocationInfo';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <PlatformSpecificContent />
+            <LocationInfo />
         </View>
     );
 };
