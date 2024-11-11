@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import ResponsiveComponent from './components/ResponsiveComponent';
+import PlatformSpecificContent from './components/PlatformSpecificContent';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <ResponsiveComponent />
+            <PlatformSpecificContent />
         </View>
     );
 };
