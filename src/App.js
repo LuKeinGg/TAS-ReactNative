@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import ImagePickerComponent from './components/ImagePickerComponent';
+import CameraPickerComponent from './components/CameraPickerComponent';
 
 const App = () => {
     return (
         <View style={styles.container}>
-            <ImagePickerComponent />
+            <CameraPickerComponent />
         </View>
     );
 };
